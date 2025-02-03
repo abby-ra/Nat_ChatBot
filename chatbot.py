@@ -5,6 +5,7 @@ from nltk.chat.util import Chat, reflections
 pairs = [
     (r"hi|hello|hey", ["Hello!", "Hey there!", "Hi!"]),
     (r"how are you?", ["I'm good, how about you?", "Doing well!"]),
+    (r"how it's going", ["It's going well!"]),
     (r"what is your name?", ["I'm a chatbot!", "You can call me ChatBot."]),
     (r"quit", ["Goodbye!", "See you later!"])
 ]
